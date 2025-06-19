@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Gravitas+One&family=Luckiest+Guy&family=Rubik+Dirt&display=swap');
+
+.body-index {
+    font-family: 'Bungee', sans-serif;
+    background-color: #e3f2fd;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+header {
+    background-color: #1150af;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 10px solid #1976d2;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 15px 0;
+    background-color: #0d47a1;
+    color: white;
+}
+
+.posicion-footer1,
+.posicion-footer2,
+.posicion-footer3 {
+    display: flex;
+    justify-content: center;
+}
+
+.grilla-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 0px;
+}
+
+a:active {
+    background-color: #00d9ff;
+    transform: scale(2);
+    transform-style: initial;
+
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.div4 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.div5 {
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+.div6 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.div7 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div8 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.div9 {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.div10 {
+    grid-area: 2 / 5 / 3 / 6;
+}
+
+.div11 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.div12 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.div13 {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.div14 {
+    grid-area: 3 / 4 / 4 / 5;
+}
+
+.div15 {
+    grid-area: 3 / 5 / 4 / 6;
+}
+
+.div16 {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+.div17 {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.div18 {
+    grid-area: 4 / 3 / 5 / 4;
+}
+
+.div19 {
+    grid-area: 4 / 4 / 5 / 5;
+}
+
+.div20 {
+    grid-area: 4 / 5 / 5 / 6;
+}
+
+.div21 {
+    grid-area: 5 / 1 / 6 / 2;
+}
+
+.div22 {
+    grid-area: 5 / 2 / 6 / 3;
+}
+
+.div23 {
+    grid-area: 5 / 3 / 6 / 4;
+}
+
+.div24 {
+    grid-area: 5 / 4 / 6 / 5;
+}
+
+.div25 {
+    grid-area: 5 / 5 / 6 / 6;
+}
+
+.div26 {
+    grid-area: 6 / 1 / 7 / 2;
+}
+
+.div27 {
+    grid-area: 6 / 2 / 7 / 3;
+}
+
+.div28 {
+    grid-area: 6 / 3 / 7 / 4;
+}
+
+.div29 {
+    grid-area: 6 / 4 / 7 / 5;
+}
+
+.div30 {
+    grid-area: 6 / 5 / 7 / 6;
+}
+
+.grilla-jugadores {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(6, 200px);
+    grid-column-gap: 30px;
+    grid-row-gap: 100px;
+    justify-content: center;
+}
+
+.Jugadoresgrilla {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.jugador img {
+    border-radius: 25%;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.jugador .nombre {
+    display: flex;
+    margin: 8px 0 2px 0;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.jugador .numero {
+    display: flex;
+    margin: 0;
+    color: #3f3b3b;
+    font-size: 20px;
+    justify-content: center;
+}
+
+a:active {
+    background-color: #00d9ff;
+}
+
+body {
+    font-family: 'Bungee', sans-serif;
+    background-color: #e3f2fd;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+header {
+    background-color: #1150af;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 10px solid #1976d2;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 15px 0;
+    background-color: #0d47a1;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.rubik-dirt-regular {
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+@media (max-width: 768px) {
+    .contenedor-img img {
+        width: 130px;
+    }
+
+    .texto-encima {
+        font-size: 12px;
+        top: 5px;
+    }
+
+    .nav-container {
+        gap: 15px;
+    }
+
+    p {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+.pie-footer {
+    background-color: #0b194663;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
